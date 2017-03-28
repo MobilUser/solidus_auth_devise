@@ -18,7 +18,11 @@ de:
     mailer:
       confirmation_instructions:
         subject: Bestätigen Sie Ihre Registrierung
-      password_reset:
+      confirmation_mail:
+        welcome: "Herzlichen Willkommen %{email}!"
+        instruction: "Bitte bestätigen Sie ihr Konto bei uns durch Klicken auf den nachstehenden Link:"
+        link: Konto bestätigen
+      password_reset_mail:
         block1: |
           Es wurde eine Anfrage gestellt, ihr Passwort zutückzusetzen.
           Wenn Sie diese Anfrage nicht ausgelöst haben, löschen Sie einfach diese E-Mail.

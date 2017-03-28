@@ -1,5 +1,5 @@
-Welcome <%= @email %>!
+<%= I18n.t('devise.mailer.confirmation_mail.welcome', email: @email) %>
 
-You can confirm your account email through the link below:
+<%= I18n.t('devise.mailer.confirmation_mail.instruction') %>
 
-<%= link_to 'Confirm my account', @confirmation_url %>
+<%= link_to I18n.t('devise.mailer.confirmation_mail.link'), @confirmation_url %>
