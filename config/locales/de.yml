@@ -18,6 +18,15 @@ de:
     mailer:
       confirmation_instructions:
         subject: Bestätigen Sie Ihre Registrierung
+      password_reset:
+        block1: |
+          Es wurde eine Anfrage gestellt, ihr Passwort zutückzusetzen.
+          Wenn Sie diese Anfrage nicht ausgelöst haben, löschen Sie einfach diese E-Mail.
+          Wenn Sie die Anfrage gestellt haben, klicken Sie bitte auf nachfolgenden Link.
+        block2: |
+          Wenn der oben stehende Link nicht funktionieren sollte, kopieren Sie ihn bitte
+          manuell in ihren Browser. Wenn das Problem dann immer noch bestehend sollte,
+          kontaktieren Sie uns bitte.
       reset_password_instructions:
         subject: Passwort zurücksetzen
       unlock_instructions:
